@@ -15,7 +15,7 @@ These are source codes or the paper under review.
 - Statistics and reference for each dataset are as follows.
 - |V| and |E| are the number of nodes and hyperarcs, respectively.
 
-|datas | $|V|$ | $|E|$ | reference |
+|datas | \|V\| | \|E\| | reference |
 |---|---|---|---|
 |citation_data_science | 46646| 38144 ||
 |citation_software | 94886 | 115617 ||
