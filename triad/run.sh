@@ -6,13 +6,10 @@ datas="citation_data_science citation_software email_enron email_eu metabolic_iA
 
 echo "START"
 
-for n in ${num[@]}
+for data in ${datas[@]}
 do
-    for data in ${datas[@]}
-    do
-        echo "data="${data}
-        ./main ${data}
-    done
+    echo "data="${data}
+    ./main ${data}
 done
 
 echo "END"

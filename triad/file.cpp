@@ -19,7 +19,6 @@ using namespace std;
 File::File(string d){
 
     filepath="../data/"+d+"/"+d;
-    //proj="-proj-graph";
     file = filepath+"_clique.txt";
     
     read();
