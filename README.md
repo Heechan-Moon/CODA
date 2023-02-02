@@ -16,10 +16,10 @@ These are source codes or the paper under review.
 
 ## Running Codes
 - Command "bash run.sh".
-- *datas* is the list of datas which are counted.
-- *version* is the list of counting algorithms.
-- *fs* is the list of fractions *q* where the number of samples becomes *n=q|E|*.
-- *try* is the number of iterations in counting. 
+  - *datas* is the list of datas which are counted.
+  - *version* is the list of counting algorithms.
+  - *fs* is the list of fractions *q* where the number of samples becomes *n=q|E|*.
+  - *try* is the number of iterations in counting. 
 ```
 <example>
 datas="citation_data_science citation_software email_enron email_eu metabolic_iAF1260b metabolic_iJO1366 qna_math qna_server bitcoin_2014 bitcoin_2015 bitcoin_2016"
