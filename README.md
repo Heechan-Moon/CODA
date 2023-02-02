@@ -23,8 +23,8 @@ These are source codes or the paper under review.
 | email_eu | 986  | 34485 ||
 |citation_data_science | 46646| 38144 |https://www.aminer.org/citation|
 |citation_software | 94886 | 115617 |https://www.aminer.org/citation|
-| qna_math | 34635  |  83425 ||
-| qna_server | 163508  | 238838 ||
+| qna_math | 34635  |  83425 |https://archive.org/details/stackexchange|
+| qna_server | 163508  | 238838 |https://archive.org/details/stackexchange|
 | bitcoin_2014 | 1697625  | 1164119 ||
 | bitcoin_2015 | 1961886  | 1237599 ||
 | bitcoin_2016 | 2009978  | 1293604 ||
