@@ -10,8 +10,6 @@ These are source codes or the paper under review.
 
 
 ## 11 Real-world directed hypergraphs
-- For _metabolic_ and _bitcoin_ data, we remove hyperarcs whose tail and head have nonempty intersection. 
-- For others, we preprocess each dataset into a directed hypergraph.
 - Statistics and reference for each dataset are as follows.
 - |V| and |E| are the number of nodes and hyperarcs, respectively.
 
