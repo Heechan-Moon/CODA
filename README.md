@@ -19,7 +19,7 @@ These are source codes or the paper under review.
 |---|---|---|---|
 | metabolic_iAF1260b | 1668 | 2064 |https://drive.google.com/file/d/1z7XwXo5ohTudUTjyS4KfQbqwze24Ry-o/view|
 | metabolic_iJO1366 | 1805  | 2233 |https://drive.google.com/file/d/1z7XwXo5ohTudUTjyS4KfQbqwze24Ry-o/view|
-| email_enron | 110 | 1447 ||
+| email_enron | 110 | 1447 |https://andrewmellor.co.uk/data/ah-enron|
 | email_eu | 986  | 34485 |http://snap.stanford.edu/data/|
 |citation_data_science | 46646| 38144 |https://www.aminer.org/citation|
 |citation_software | 94886 | 115617 |https://www.aminer.org/citation|
