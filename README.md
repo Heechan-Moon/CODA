@@ -1,4 +1,4 @@
-# CODA: COunting of Directed HypergrAphlets
+# CODA: <U>CO</U>unting of <U>D</U>irected Hypergr<U>A</U>phlets
 
 These are source codes or the paper under review.
 
