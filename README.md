@@ -14,7 +14,7 @@ These are source codes or the paper under review.
 - |V| and |E| are the number of nodes and hyperarcs, respectively.
 
 |datas | \|V\| | \|E\| | reference |
-|---|---|---|---|
+|---|---:|---:|---|
 | metabolic_iAF1260b | 1668 | 2064 |https://drive.google.com/file/d/1z7XwXo5ohTudUTjyS4KfQbqwze24Ry-o/view|
 | metabolic_iJO1366 | 1805  | 2233 |https://drive.google.com/file/d/1z7XwXo5ohTudUTjyS4KfQbqwze24Ry-o/view|
 | email_enron | 110 | 1447 |https://andrewmellor.co.uk/data/ah-enron|
