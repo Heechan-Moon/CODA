@@ -12,7 +12,7 @@ These are source codes or the paper under review.
 ## 11 Real-world directed hypergraphs
 - Statistics and reference for each dataset are as follows.
 - |V| and |E| are the number of nodes and hyperarcs, respectively.
-- We provide processed datas with formats *.txt*.
+- We provide processed datas with *.txt* files.
 
 |datas | \|V\| | \|E\| | reference |
 |---|---:|---:|---|
