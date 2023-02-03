@@ -28,7 +28,7 @@ These are source codes or the paper under review.
 | bitcoin_2016 | 2009978  | 1293604 |https://drive.google.com/drive/folders/1B2NCxU_T7Sl_tYVaXDn55GY3-iYGVAbJ|
 
 ## Running Codes
-- Command "bash run.sh".
+- Command "bash src/run.sh".
   - *datas* is the list of datas which are counted.
   - *version* is the list of counting algorithms.
   - *fs* is the list of fractions *q* where the number of samples becomes *n=q|E|*.
@@ -45,4 +45,9 @@ try=3
 ## Outputs
 1. (txt) the count of each directed hypergraphlet whose line is composed of ({index of a directed hypergraphlet},{counts})
 2. (csv) time taken for reading and counting 
+
+
+## (Additional Contents)
+- We provide code implemented with C++ for obtaining traid census.
+- After selecting data, command "bash triad/run.sh".
 
