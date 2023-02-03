@@ -48,6 +48,6 @@ try=3
 
 
 ## (Additional Contents)
-- We provide code implemented with C++ for obtaining traid census.
-- After selecting data, command "bash triad/run.sh".
+- We provide a code implemented with C++ for obtaining traid census.
+- command "bash triad/run.sh".
 
