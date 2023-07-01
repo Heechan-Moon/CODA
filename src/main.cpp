@@ -50,7 +50,7 @@ int main(int argc, char **argv){
             }
             else if(version=="A2A"){
                 file.A2A();
-            }else if(version=="Uniform"){
+            }else if(version=="DMOCHY"){
                 file.uni();
             }
             else{
