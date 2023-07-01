@@ -6,6 +6,8 @@ These are source codes or the paper under review.
   - **CODA-E** is a brute-force accurate algorithm.
   - **CODA-A** is an approximate algorithm based on weighted sampling.
 - As baselines, we also propose approximate algorithms **D-MoCHy** and **A2A sampling**.
+  - **D-MoCHy** is ~
+  - **A2A sampling** is ~.
 - **CODA-A** has advantage of time, memory and also accuracy over baselines and **CODA-E**.
 
 
