@@ -6,15 +6,15 @@ These are source codes or the paper under review.
   - **CODA-E** is a brute-force accurate algorithm.
   - **CODA-A** is an approximate algorithm based on weighted sampling.
 - As baselines, we also propose approximate algorithms **D-MoCHy** and **A2A sampling**.
-  - **D-MoCHy** is ~
-  - **A2A sampling** is ~.
-- **CODA-A** has advantage of time, memory and also accuracy over baselines and **CODA-E**.
+  - **D-MoCHy** is a direct extension of MoCHy-A+, the most advanced algorithm presented in "Hypergraph Motifs: Concepts, Algorithms, and Discoveries (Geon Lee, VLDB'20)" in that both methods involve uniformly sampling a pair of incident hyperedges using a projected graph.
+  - **A2A sampling** is an approximate algorithm that samples a single hyperarc e from E uniformly at random first, and then another incident hyperarc e′ ∈ N_e uniformly at random.
+- **CODA-A** has the advantage of time, memory, and accuracy over baselines and **CODA-E**.
 
 
 ## 11 Real-world directed hypergraphs
-- Statistics and reference for each dataset are as follows.
+- Statistics and references for each dataset are as follows.
 - |V| and |E| are the number of nodes and hyperarcs, respectively.
-- We provide processed datas with *.txt* files.
+- We provide processed data with *.txt* files.
 
 |datas | \|V\| | \|E\| | reference |
 |---|---:|---:|---|
@@ -32,7 +32,7 @@ These are source codes or the paper under review.
 
 ## Running Codes
 - Command "bash src/run.sh".
-  - *datas* is the list of datas which are counted.
+  - *datas* is the list of data that are counted.
   - *version* is the list of counting algorithms.
   - *fs* is the list of fractions *q* where the number of samples becomes *n=q|E|*.
   - *try* is the number of iterations in counting. 
@@ -51,6 +51,6 @@ try=3
 
 
 ## (Additional Contents)
-- We provide a code implemented with C++ for obtaining traid census.
+- We provide a code implemented with C++ for obtaining triad census.
 - command "bash triad/run.sh".
 
