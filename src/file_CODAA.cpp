@@ -15,8 +15,8 @@
 void File::WN2A(){
     random_device rd;
     mt19937 gen(rd());
-    vector<int> degree_dist;
-    int cnt = 0;
+    vector<long long> degree_dist;
+    long long cnt = 0;
     for(int i=0; i<V; i++){
         
         int size = degV[i];            
@@ -35,11 +35,10 @@ void File::WN2A(){
 
         double p = 0;
 
-        uniform_int_distribution<int> dis(0, degree_dist.back()-1);
-        int temp = dis(gen);
+        uniform_int_distribution<long long> dis(0, degree_dist.back()-1);
 
+        long long temp = dis(gen);
         int lo = 0, hi = degree_dist.size() - 1, mid, sampled_idx = 0; // hi=V-1
-
 
         while(lo <= hi){
             mid = (lo + hi) >> 1;
