@@ -1,10 +1,10 @@
 make clean
 make main
 
-datas="email_enron email_eu metabolic_iAF1260b metabolic_iJO1366"
+datas="citation_data_science citation_software qna_math qna_server bitcoin_2014 bitcoin_2015 bitcoin_2016"
 
 versions="CODAE CODAA A2A DMOCHY" 
-fs="0.2, 1, 5, 10, 50"
+fs="0.2, 0.4, 0.6, 0.8, 1.0"
 try=20
 
 
@@ -25,30 +25,6 @@ do
         fi
     done
 done
-
-
-datas="citation_data_science citation_software qna_math qna_server bitcoin_2014 bitcoin_2015 bitcoin_2016"
-fs="0.2, 0.4, 0.6, 0.8, 1.0"
-
-
-for version in ${versions[@]}
-do
-    echo ${version}
-    for data in ${datas[@]}
-    do
-        echo "data="${data}
-        if [ ${version} = "CODAE" ] ; then
-            ./main 0 ${data} CODAE 1
-        else
-            for f in ${fs[@]}
-            do
-                echo "  fs="${f}
-                ./main ${f} ${data} ${version} ${try}
-            done
-        fi
-    done
-done
-
 
 #citation_data_science  V:  46646  E:  38144
 #citation_software  V:  94886  E:  115617

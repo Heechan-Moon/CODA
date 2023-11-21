@@ -7,6 +7,7 @@
 #include<algorithm>
 #include<map>
 #include<unordered_map>
+#include<unordered_set>
 #include<time.h>
 #include<omp.h>
 #include<random>
@@ -17,6 +18,7 @@
 void File::exact(){
     
     unordered_map<int, vector<int>> VtA;
+    vector<unordered_set<int>> Omega;
     ifh.open(file_h); ift.open(file_t);
  
     string str;
@@ -58,16 +60,16 @@ void File::exact(){
             arc_exact.push_back(convertToSet(a_temp));
             
             unordered_set<int> temp;
-        
+            Omega.push_back(temp);
+            //unordered_set<int> temp;
             for(auto &v: arc_exact[cnt]){
                 for(auto &e: VtA[v]){
                     if(e==cnt) continue;
-                  
-                    unordered_set<int>::const_iterator iter = temp.find(e);
-                    if (iter==temp.end()){
+                    unordered_set<int>::const_iterator iter = Omega.back().find(e);
+                    if (iter==Omega.back().end()){
                         int idx = getMotif_result(head_exact[cnt], tail_exact[cnt], head_exact[e], tail_exact[e]);
                         DHG[DHG_map[idx]] += 1;
-                        temp.insert(e);
+                        Omega.back().insert(e);
                     }
                     
                 }
