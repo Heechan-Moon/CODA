@@ -1,6 +1,6 @@
 # CODA: COunting of Directed HypergrAphlets
 
-These are source codes or the paper under review.
+These are source codes of the paper under review.
 
 - **CODA** are algorithms for counting directed hypergraphlets which have two versions.
   - **CODA-E** is a brute-force accurate algorithm.
